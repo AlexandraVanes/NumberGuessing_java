@@ -15,8 +15,6 @@ public class Main {
         // Generate random int value from min to max
         int numberToGuess = (int) (Math.random()* (max - min + 1) + min);
         int numberGuessed;
-        // System.out.println("you guessed :" + numberGuessed + " but the correct answer is : " + numberToGuess);
-
         int i, attempts = 10;
 
         System.out.println("\u001B[32mThe system will choose a number between 1 and 100\nYour job is to guess that number! You have 10 tries, Good luck!");
